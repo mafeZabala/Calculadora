@@ -53,6 +53,7 @@
     align-items: center;
     padding: 0 10px;
     background-color: #fafafa;
+    font-size: 2rem;
 
 }
 h1{
@@ -66,4 +67,15 @@ h1{
     width: 80px;
     height: 80px;
     border-radius: 50px;
+}
+@media (max-width: 572px ){
+    .contenedor{
+        /* fit-content: utiliza el espacio disponible */
+        width: fit-content;
+        margin: 50px auto;;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid black;
+        background-color:rgb(240, 225, 255);
+    }
 }
